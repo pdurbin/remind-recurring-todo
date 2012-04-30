@@ -1,0 +1,2 @@
+#!/bin/sh
+grep -Ev '^No reminders\.$|^$' | sed 's/^Reminders for /===== /g' | perl -p -i -e 's/:$/ =====/' | perl -p -i -e 's/^([^=])/- $&/' | perl -p -i -e 's/^==/\n==/'

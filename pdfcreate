@@ -1,0 +1,3 @@
+#!/bin/sh
+PDF="checklist.`date -I`.pdf"
+a2ps --no-header --borders=no -o - | ps2pdf - > $PDF && echo "Saved to $PDF"

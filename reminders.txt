@@ -1,0 +1,18 @@
+# financial
+REM Apr 1 MSG pay taxes
+REM 15 MSG pay mortgage
+REM 25 MSG pay credit card
+REM Friday 1 -7 MSG pay day care
+REM Sun 8 MSG balance check book
+REM Sun 8 MSG pay bills
+REM 2012-03-22 *14 MSG pay housekeeper
+# every week
+REM Wed MSG place grocery order
+REM Fri MSG receive grocery order
+REM Sun MSG go through mail
+# monthly
+REM Sat 1 -7 MSG plan outing
+REM Sun 1 -7 MSG make sure backups ran
+# other
+REM Aug 1 MSG does car registration expire?
+REM Tue 15 MSG place food delivery order
